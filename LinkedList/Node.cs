@@ -6,28 +6,29 @@ using System.Threading.Tasks;
 
 namespace LinkedList
 {
-    class Node
+    public class Node
     {
-        public object data;
+        public int data;
         public Node next;
 
         public Node()
         {
-            data = null;
+            data = 0;
             next = null;
         }
 
-        public Node(object data)
+        public Node(int data)
         {
             this.data = data;
             next = null;
         }
 
-        public Node(object data, Node next)
+        public Node(int data, Node next)
         {
             this.data = data;
             this.next = next;
         }
+               
     }
 
     class LinkedList
@@ -37,7 +38,17 @@ namespace LinkedList
 
         int numOfNodes;
 
-        public void add(object newData)
+        public bool Empty
+        {
+            get { return this.numOfNodes == 0; }
+        }
+
+        public int Count
+        {
+            get { return this.numOfNodes;  }
+        }
+
+        public void add(int newData)
         {
             Node node = new Node(newData);
 
@@ -53,6 +64,23 @@ namespace LinkedList
             numOfNodes++;
         }
 
+        public void remove(int dataRemove)
+        {
+            Node temp = firstNode;
+            Node prev = firstNode;
+
+            while (temp != null)
+            {
+                if (temp.data == dataRemove)
+                {
+                    prev.next = temp.next;
+                    return;
+                }
+                prev = temp;
+                temp = temp.next;
+            }
+        }
+
         public void DisplayAllNodes()
         {
             Node node = firstNode;
@@ -63,6 +91,7 @@ namespace LinkedList
                 node = node.next;
             }
         }
+
     
     }
 }

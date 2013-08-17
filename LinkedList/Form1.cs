@@ -20,14 +20,18 @@ namespace LinkedList
         private void button1_Click(object sender, EventArgs e)
         {
             LinkedList linkedList = new LinkedList();
-            linkedList.add(77);
-            linkedList.add(10);
-            linkedList.add(20);
-            linkedList.add(5);
-            linkedList.add(432);
+            linkedList.add(1);
             linkedList.add(2);
-            linkedList.add(9);
+            linkedList.add(3);
+            linkedList.add(4);
+            linkedList.add(5);
+            linkedList.add(6);
+            linkedList.add(7);
 
+            linkedList.DisplayAllNodes();
+
+            linkedList.remove(4);
+      
             linkedList.DisplayAllNodes();
         }
     }

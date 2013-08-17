@@ -7,3 +7,12 @@ c:\users\matthew\documents\visual studio 2012\Projects\LinkedList\LinkedList\obj
 c:\users\matthew\documents\visual studio 2012\Projects\LinkedList\LinkedList\obj\Debug\LinkedList.csproj.GenerateResource.Cache
 c:\users\matthew\documents\visual studio 2012\Projects\LinkedList\LinkedList\obj\Debug\LinkedList.exe
 c:\users\matthew\documents\visual studio 2012\Projects\LinkedList\LinkedList\obj\Debug\LinkedList.pdb
+C:\Users\Matthew\TafeLinkedList\LinkedList\bin\Debug\LinkedList.exe.config
+C:\Users\Matthew\TafeLinkedList\LinkedList\obj\Debug\LinkedList.exe
+C:\Users\Matthew\TafeLinkedList\LinkedList\obj\Debug\LinkedList.pdb
+C:\Users\Matthew\TafeLinkedList\LinkedList\bin\Debug\LinkedList.exe
+C:\Users\Matthew\TafeLinkedList\LinkedList\bin\Debug\LinkedList.pdb
+C:\Users\Matthew\TafeLinkedList\LinkedList\obj\Debug\LinkedList.csprojResolveAssemblyReference.cache
+C:\Users\Matthew\TafeLinkedList\LinkedList\obj\Debug\LinkedList.Form1.resources
+C:\Users\Matthew\TafeLinkedList\LinkedList\obj\Debug\LinkedList.Properties.Resources.resources
+C:\Users\Matthew\TafeLinkedList\LinkedList\obj\Debug\LinkedList.csproj.GenerateResource.Cache
